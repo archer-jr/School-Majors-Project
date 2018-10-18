@@ -7,7 +7,7 @@
 import pandas as pd
 import matplotlib
 get_ipython().run_line_magic('matplotlib', 'inline')
-dat = open("/Users/James/Downloads/recent-grads.csv", "r")
+dat = open("recent-grads.csv", "r")
 recent_grads = pd.read_csv(dat)
 
 
